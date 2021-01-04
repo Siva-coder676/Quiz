@@ -39,7 +39,7 @@ class _QuizPageState extends State<QuizPage> {
     }
     else if (_answers[_currentIndex]==question.correctAnswer ){
       _key.currentState.showSnackBar(SnackBar(content: Text(
-          HtmlUnescape().convert(" The wrong answer is ${_answers[_currentIndex]}")
+          HtmlUnescape().convert(" The correct answer is  ${_answers[_currentIndex]}")
       )));
         }
 
