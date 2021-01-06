@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'file:///E:/projectsworkspace/quiz/lib/UI/Pages/Pages/homePage.dart';
+
+import 'UI/Pages/Pages/homePage.dart';
 
 void main() {
   runApp(MaterialApp(
